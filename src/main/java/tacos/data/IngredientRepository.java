@@ -6,9 +6,9 @@ import tacos.Ingredient;
 
 public interface IngredientRepository {
 	
-	Iterable<Ingredient> findAll();
+	public Iterable<Ingredient> findAll();
 	
-	Optional<Ingredient> findById(String id);
+	public Optional<Ingredient> findById(String id);
 	
-	Ingredient save(Ingredient ingredient);
+	public Ingredient save(Ingredient ingredient);
 }
