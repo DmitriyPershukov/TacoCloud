@@ -4,3 +4,6 @@ spring:
     datasource:
         generate-unique-name: false
         name: tacocloud
+    h2:
+        console:
+            enabled: true
